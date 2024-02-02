@@ -1,0 +1,131 @@
+body{
+    height: 100%;
+    width:100%;
+    background-color: #22bbff;
+}
+#container {
+    width:1400px;
+    /*border:1px solid grey;*/
+    margin:40px 30px;
+    height:150px;
+    /*background:linear-gradient(#40ff40,#0ec50e);*/
+    border-radius:10px;
+}
+#brand{
+    float:left;
+    margin:25px;
+    /*margin-left:40px;*/
+}
+h1 a{
+    text-decoration: none;
+    font-family:cursive;
+    color:white;
+    font-size:57px;
+
+}
+#searchbox{
+    float:right;
+    margin:60px;
+    border:1px solid grey;
+    padding:20px;
+    background:linear-gradient(#3d3de7,#20208b);
+}
+.search{
+    margin-right:20px;
+    border-radius:10px;
+    color:red;
+}
+.submit{
+    background-color: #ff005d;
+    color:white;
+    border-radius:10px;
+}
+#menu{
+    float:left;
+    margin-bottom:30px;
+    margin-left:120px;
+}
+ul li a{
+    text-decoration: none;
+    transition: font-size 2s ease;
+    -webkit-transition: font-size 2s ease;
+    -moz-transition: font-size 2s ease;
+    -ms-transition: font-size 2s ease;
+    -o-transition: font-size 2s ease;
+}
+#menu ul li{
+    text-decoration: none;
+    padding:30px 40px 30px;
+    border-right:1px solid red;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    list-style:none;
+    float:left;
+    text-transform: uppercase;
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+ul li a:hover{
+    font-family
+:cursive;
+
+    font-weight:bold;
+    color:#ff0033;
+}
+#introduction{
+    float:left;
+    margin:10px 25px;
+    padding-bottom: 90px;
+    background:white;
+    border-radius:400px;
+}
+h3{
+    font-size:45px;
+    margin-left:50px;
+    color:#ff0d0d;
+    font-family:cursive;
+}
+p{
+    margin:10px 30px;
+}
+p a{
+    font-size:29px;
+    margin-left:95px;
+}
+#sidebar{
+    margin:35px 37px;
+    padding:30px;
+}
+h4{
+    font-size:28px;
+    color:white;
+}
+#leftsidebar{
+    float:left;
+}
+#sidebar ul li{
+    padding:20px;
+    font-size:20px;
+}
+#rightsidebar{
+    float:right;
+}
+ul li a{
+    padding:20px;
+}
+
+#iframe{
+    height:600px;
+    width:1400px;
+    margin:30px;
+    border-radius:60px;
+}
+footer{
+    margin-top:50px;
+    padding:50px;
+    background-color:white;
+    height:300px;
+    font-size:26px;
+    
+}
